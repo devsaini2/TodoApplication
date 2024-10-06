@@ -12,7 +12,7 @@ function addTodo(){
 function renderTodos(){
     const list = document.getElementById('todo-list');
     list.innerHTML = '';
-    todos.forEach((todo, index) =>{
+    todos.forEach((todo) =>{
         const listItem = document.createElement('li');
         listItem.textContent = todo;
         list.appendChild(listItem);
